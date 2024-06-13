@@ -1,0 +1,33 @@
+body {
+max-width: 1440px;
+top: -743px;
+left: -543px;
+padding: 45px 0px 0px 0px;
+gap: 50px;
+opacity: 0px;
+
+}
+
+html,
+body {
+  margin: 0; 
+  padding: 0;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1240px;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media (max-width: 769px) {
+  
+}

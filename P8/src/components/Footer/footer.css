@@ -1,0 +1,38 @@
+footer {
+  height: 209px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+height: 209px;
+/*padding: 66px 464px 29px 463px;*/
+gap: 0px;
+opacity: 0px;
+margin-top: 5%;
+
+}
+
+
+footer p {
+  font-size: 24px;
+  font-family: Montserrat;
+font-weight: 500;
+line-height: 34.22px;
+text-align: center;
+
+}
+
+@media (max-width: 769px) {
+    .footer {
+        height:120px;
+        gap: 15px;
+    }
+
+    .text_footer {
+        font-size: 12px;
+        max-width: 140px; 
+    }
+  }

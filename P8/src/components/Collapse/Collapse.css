@@ -1,0 +1,71 @@
+/* Collapse.css */
+
+.collapse_title {
+    height: 52px;
+    color: white;
+    background-color: #FF6060;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.collapse_txt--visible, .collapse_txt--hidden {
+    transition: max-height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+    overflow: hidden;
+    max-height: 0; /* Initial max-height set to 0 */
+    opacity: 0; /* Initial opacity set to 0 */
+}
+
+
+.collapse_txt--visible {
+    background-color: #F6F6F6;
+    font-size: 18px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    border-radius: 0 0 5px 5px;
+    max-height: 1000px; /* Assurez-vous que cette valeur est assez grande pour votre contenu */
+    opacity: 1;
+}
+
+.collapse_txt--visible p {
+    padding: 18px;
+    margin-top: 0;
+}
+
+.collapse_txt--hidden {
+    max-height: 0;
+    opacity: 0;
+}
+
+.collapse_fermeture {
+    transform: rotate(180deg);
+}
+
+.collapse_div {
+    background-color: white;
+    width: 100%;
+    border-radius: 0 0 5px 5px;
+    height: auto;
+    margin: 10px 0;
+}
+.collapse_arrow {
+    transition: transform 0.3s ease; /* Animation de la rotation de la flèche */
+}
+
+/* Media query for responsive design */
+@media (max-width: 769px) {
+    .collapse_div {
+        width: 100%;
+        padding: 0px;
+    }
+    .collapse_close {
+        width: 100%;
+    }
+}

@@ -1,0 +1,25 @@
+
+/* apropos.css */
+
+.parent-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centre horizontalement */
+    width: 100%;
+}
+
+.apropos-collapse {
+    width: 100%;
+    max-width: 800px; /* Largeur maximale souhaitée */
+}
+
+
+@media (max-width: 769px) {
+    .collapse_div {
+        width: 100%;
+        padding: 0px;
+    }
+    .collapse_close{
+        width:100%;
+    }
+}

@@ -1,0 +1,30 @@
+@media (max-width: 767px) {
+  .img_container {
+    height: 111px;
+    background-size: cover;
+    margin: 20px 20px;
+
+  }
+
+  .img_container img {
+    border-radius: 25px;
+
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+  }
+
+  .text_banner_home {
+    font-size: 24px;
+    height: 111px;
+    width: 50%;
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .banner_home {
+    margin-top: 15px;
+    justify-content: flex-start;
+    padding: 5px;
+  }
+}

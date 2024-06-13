@@ -1,0 +1,47 @@
+.carrousel {
+   position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 180px;
+}
+.carrousel_img {
+    position: absolute;
+  
+    border-radius: 25px;
+    object-fit: cover;
+    width: 1240px;
+height: 415px;
+top: 163px;
+left: 100px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+.carrousel_icon_next, .carrousel_icon_prev {
+    position: absolute;
+    width: 46px;
+    height: 79px;
+    cursor: pointer;
+}
+
+.carrousel_icon_prev {
+    transform: translate(0, -50%);
+    left: 23px;
+}
+
+.carrousel_icon_next {
+    transform: translate(0, -50%);
+
+    right: 23px;
+}
+
+.carrousel_slideNumbering {
+    position: absolute;
+    font-size: 18px;
+    margin-top: 350px;
+    color: white;
+
+}
+
